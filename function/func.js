@@ -28,3 +28,34 @@ function sum1(x, y) {
 }
 let val = sum1(4, 8);
 console.log(val);
+
+
+// Arrow function
+const arrowSum = (a, b) => {
+    console.log(a + b);
+}
+console.log(arrowSum);
+console.log(arrowSum(11, 42));
+
+const arrowMul = (p, q) => {
+    return (p * q);
+}
+console.log(arrowMul);
+console.log(arrowMul(4, 7));
+
+
+// Practice Count Vowel using Function
+function countVowels(str) {
+    let count = 0;
+    for (const char of str) {
+        if (char === "a" || char === "e" || char === "i" || char === "o" || char === "u") {
+            count++;
+        }
+    }
+    console.log(count);
+}
+countVowels("Noorunnabi");
+
+
+// Practice Count Vowel using Arrow Function
+
