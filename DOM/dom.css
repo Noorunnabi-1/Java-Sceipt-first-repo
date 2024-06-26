@@ -1,0 +1,14 @@
+h3 {
+    color: blue;
+    background-color: aqua;
+}
+
+body {
+    background-color: darkgray;
+}
+
+button {
+    color: white;
+    background-color: darkslateblue;
+    border-radius: 4px;
+}
