@@ -23,3 +23,4 @@ div.style.backgroundColor = "green";         //    : change the div backgroundCo
 div.style.fontSize = "30px";               //     : increase the font size  
 div.innerText = "Hello!";
 // div.style.visibility = "hidden";
+
