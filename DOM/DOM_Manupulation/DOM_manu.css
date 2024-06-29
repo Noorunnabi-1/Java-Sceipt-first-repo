@@ -1,0 +1,19 @@
+h3 {
+    color: blue;
+    background-color: aqua;
+}
+
+body {
+    background-color: darkgray;
+}
+
+button {
+    color: white;
+    background-color: darkslateblue;
+    border-radius: 4px;
+}
+
+.h1-class {
+    color: black;
+    background-color: brown;
+}

@@ -9,6 +9,48 @@
 </head>
 
 <body>
+    <h3 id="heading">Document Object Model</h3>
+    <h3>Software Engineer</h3>
+    <button id="myId">Click me!</button>
+    <h3>Window Object</h3>
+    <p>The window object represents an open window in a browser. It is browser's object (not JavaScript's)
+        & is automatically created by browser.
+    </p>
+    <p>It is a global object with lots of properties & methods. It is useful at the runtime (Dynamically) of
+        websites.Then we can
+        make changes in the html using JavaScript</p>
+    <p>The method of access html element in the JavaScriptis is called DOM.</p>
+    <p>we are using console.log to print html element but console.dir use to print document's method & property means
+        object .</p>
+    <h3>DOM Manupulation</h3>
+    <p>1- Selecting with id : document.getElementById(“myId”)</p>
+    <p>2- Selecting with class : document.getElementsByClassName(“myClass”)</p>
+    <p>3- Selecting with tag : document.getElementsByTagName(“p”)</p>
+    <p>4- Query Selector :</p>
+    <p>i- document.querySelector(“#myId / .myClass / tag”)
+        <b> //returns first element</b>
+    </p>
+    <p>ii- document.querySelectorAll(“#myId / .myClass / tag”)
+        <b> //returns a NodeList</b>
+    </p>
+    <h4 class="h1-class">heading1</h4>
+    <h5 class="h1-class">heading2</h5>
+    <h6 class="h1-class">heading3</h6>
+
+    <h3>Properties </h3>
+    <div>
+        <ul>
+            <li><b><i>tagName :</i></b> returns tag for element nodes</li>
+            <li><b><i>innerText :</i></b> returns the text content of the element and all its children</li>
+            <li><b>innerHTML :</b> returns the plain text or HTML contents in the element</li>
+            <li><b>textContent :</b> returns textual content even for hidden elements</li>
+        </ul>
+    </div>
+    <p>DOM Tree : text nodes, comment , element - we are using element</p>
+    <h1>Old Heading</h1>
+    <h2 style="visibility: hidden;">This is hidden content.</h2>
+
+
     <script src="DOM_manu.js"></script>
 </body>
 
