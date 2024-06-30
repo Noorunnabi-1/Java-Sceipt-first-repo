@@ -9,6 +9,44 @@
 </head>
 
 <body>
+    <h2>Events in JS</h2>
+    <p>The change in the state of an object is known as an Event.Events are fired to notify code of "interesting
+        changes" that may affect code execution.</p>
+    <p>Mouse events (click, double click etc.) <br>
+        Keyboard events (keypress, keyup, keydown)<br>
+        Form events (submit etc.)<br>
+        Print event & many more</p>
+    <button onclick="console.log('button1 was clicked!');alert('Hello!')">Click me!</button>
+    <button ondblclick="console.log('button2 was clicked 2x!')">Click me 2 times!</button>
+    <div onmouseover="console.log('You are inside div1.')">This is a div1</div>
+    <p>These are inline event handling.</p>
+    <hr>
+    <h2>Event Handling in JS</h2>
+    <p><b>node.event = ( ) => {
+            //handle here
+            }</b>
+    </p>
+    <p><b>btn.onclick = ( ) => {
+            console.log(“btn was clicked”);
+            }</b>
+    </p>
+    <button id="btn3">Click me!</button>
+    <div class="box">This is a div2</div>
+    <p>Event handling in JavaScriptis is preferred than inline handling.If event handling in JavaScript is two times
+        then preferred second handling. </p>
+    <hr>
+    <h2>Event Objects</h2>
+    <p>It is a special object that has details about the event.All event handlers have access to the Event Object's
+        properties and methods.</p>
+    <p><b>node.event = (e) => {
+            //handle here
+            } </b></p>
+    <p><b>e.target, e.type, e.clientX, e.clientY</b></p>
+    <button id="btn4">Click me!</button>
+    <div class="box2">This is a div3</div>
+    <hr>
+    <h2>Event Listeners</h2>
+
     <script src="event.js"></script>
 </body>
 

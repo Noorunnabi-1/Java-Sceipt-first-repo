@@ -1,0 +1,19 @@
+* {
+    background-color: rgba(204, 178, 182, 0.937);
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: purple;
+    color: white;
+    margin-top: 20px;
+}
+
+.box {
+    background-color: brown;
+}
+
+.box2 {
+    background-color: cyan;
+}
