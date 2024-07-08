@@ -9,8 +9,7 @@
 
 <body>
     <h1>Promises</h1>
-    <p>Promise is for “eventual” completion of task. It is an object in JS.
-        It is a solution to callback hell</p>
+    <p>Promise is for “eventual” completion of task. It is an object in JS. It is a solution to callback hell</p>
     <p><b>let promise = new Promise( (resolve, reject) => { .... } ) <br>
             Function with 2 handlers</b></p>
     <p><b>Note* :resolve & reject are callbacks provided by JS.</b></p><br>
@@ -20,6 +19,12 @@
         <li>Resolved : the result is a value (fulfilled). <b>resolve( result )</b></li>
         <li> Rejected : the result is an error object. <b>reject( error )</b></li>
     </ul>
+    <p><b>Note* :Promise has state (pending, fulfilled) & some
+            result (result for resolve & error for reject).</b></p>
+    <p>Promises :</p>
+    <p><b>.then( ) & .catch( )</b></p>
+    <p><b>promise.then( ( res ) => { .... } )</b></p>
+    <p><b>promise.catch( ( err ) => { .... } )</b></p>
     <script src="promises.js"></script>
 </body>
 
