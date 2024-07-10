@@ -4,13 +4,23 @@ function getData(dataId) {
         setTimeout(() => {
             console.log("data", dataId);
             resolve("Success");
-        }, 5000);
+        }, 3000);
     });
 }
 // promise chain
-getData(1).then((res) => {
-    console.log(res);
-    getData(2).then(() => {
+// getData(1).then((res) => {
+//     console.log(res);
+//     getData(2).then(() => {
+//         console.log(res);
+//     });
+// });
+
+
+// Actual promise chain
+getData(1)
+    .then((res) => {
+        return getData(2)
+    })
+    .then((res) => {
         console.log(res);
     });
-});
