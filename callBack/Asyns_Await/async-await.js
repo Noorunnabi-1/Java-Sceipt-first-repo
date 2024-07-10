@@ -17,17 +17,26 @@ console.log(Weather);
 
 
 // hell using promise now using async await
-// function getData(dataId) {
-//     return new Promise((resolve, reject) => {
-//         setTimeout(() => {
-//             console.log("data", dataId);
-//             resolve("Success");
-//         }, 6000);
-//     });
-// }
+function getData(dataId) {
+    return new Promise((resolve, reject) => {
+        setTimeout(() => {
+            console.log("data", dataId);
+            resolve("Success");
+        }, 4000);
+    });
+}
 // async function getDataId() {
 //     await getData(1);
 //     await getData(2);
 //     await getData(3);
 // }
 // getDataId();
+
+
+// IIFE
+(async function () {
+    await getData(1);
+    await getData(2);
+    await getData(3);
+})();
+//getDataId();
